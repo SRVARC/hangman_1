@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.word-display {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.wrong-letters {
+    margin: 20px 0;
+    color: red;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.key {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.key:hover {
+    background-color: #e0e0e0;
+}
+
+.restart-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.restart-btn:hover {
+    background-color: #218838;
+}
+
+.category-selection {
+    margin-bottom: 20px;
+}
+
+.category-btn {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.category-btn:hover {
+    background-color: #0056b3;
+}
+
+.hangman {
+    margin-bottom: 20px;
+}
+
+#hangmanImage {
+    width: 200px; /* Adjust size as needed */
+}

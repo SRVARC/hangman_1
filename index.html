@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman Game with Categories</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hangman Game</h1>
+        <div id="categorySelection" class="category-selection">
+            <h2>Select a Category</h2>
+            <button class="category-btn" data-category="ai_terms">Ai Terms</button>
+            <button class="category-btn" data-category="Car_brand">Car brands</button>
+            <button class="category-btn" data-category="Sports">Sports</button>
+        </div>
+        <div class="hangman">
+            <img id="hangmanImage" src="hangman0.png" alt="Hangman Stage 0">
+        </div>
+        <div id="wordDisplay" class="word-display"></div>
+        <div id="wrongLetters" class="wrong-letters"></div>
+        <div class="keyboard"></div>
+        <button id="restartBtn" class="restart-btn">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
